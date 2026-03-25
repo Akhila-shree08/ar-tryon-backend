@@ -62,5 +62,5 @@ async def surface_info(file: UploadFile = File(...)):
     return surface_mod.get_surface_info(bgr)
 
 
-if __name__ == "__main__":
-    uvicorn.run("main_controller:app", host="0.0.0.0", port=8000, reload=False)
+#if __name__ == "__main__":
+    #uvicorn.run("main_controller:app", host="0.0.0.0", port=8000, reload=False)
